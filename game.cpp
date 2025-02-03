@@ -45,13 +45,13 @@ char gameMap[] =
 "#                           #\n"
 "#############################\n";
 
-char snakeSymbol = '@';
+char snakeSymbol = '*';
 int snakeX[maxSnakeLength] = {0};
 int snakeY[maxSnakeLength] = {0};
 int snakeLength = 1;
 int foodX = 1 + (rand() % (mapWidth - 3));
 int foodY = 1 + (rand() % (mapHeight - 2));
-char foodSymbol = '*';
+char foodSymbol = '@';
 
 int main() {
     snakeX[0] = mapWidth / 2;
